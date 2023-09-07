@@ -1,0 +1,35 @@
+#root {
+  width: 100%;
+  max-width: 1280px;
+  min-height: 100vh;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.container p a {
+  text-decoration: none;
+}
+.container p a:hover {
+  text-decoration: underline;
+}
+
+table {
+  width: 100%;
+  text-align: center;
+  font-size: 1.6rem;
+  margin: 2rem 1rem;
+}
+
+.table-header {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
